@@ -1,10 +1,10 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
-const populateDoc = require("add my file path when i get it sorted");
+// const populateDoc = require("add my file path when i get it sorted");
 
-const Manager = require("./lib/Engineer");
+// const Engineer = require("./lib/Engineer");
 const Manager = require("./lib/Manager");
-const Manager = require("./lib/Intern");
+// const Intern = require("./lib/Intern");
 
 let roster = [];
 
@@ -100,3 +100,4 @@ const createNewEmployee = () => {
       }
     });
 };
+createNewManager();
